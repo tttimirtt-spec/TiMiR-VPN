@@ -1,0 +1,52 @@
+{
+  "Name": "Block-All-VK-Ecosystem",
+  "GlobalProxy": true,
+  "RouteOrder": "block-proxy-direct",
+  "RemoteDNSType": "DoH",
+  "RemoteDNSDomain": "https://cloudflare-dns.com",
+  "RemoteDNSIP": "1.1.1.1",
+  "DomesticDNSType": "DoH",
+  "DomesticDNSDomain": "https://dns.google",
+  "DomesticDNSIP": "8.8.8.8",
+  "Geoipurl": "https://github.com",
+  "Geositeurl": "https://github.com",
+  "LastUpdated": "",
+  "DnsHosts": {
+    "cloudflare-dns.com": "1.1.1.1",
+    "dns.google": "8.8.8.8"
+  },
+  "DirectSites": [],
+  "DirectIp": [
+    "10.0.0.0/8",
+    "172.16.0.0/12",
+    "192.168.0.0/16",
+    "169.254.0.0/16",
+    "224.0.0.0/4",
+    "255.255.255.255"
+  ],
+  "ProxySites": [],
+  "ProxyIp": [],
+  "BlockSites": [
+    "vk.com",
+    "vk.ru",
+    "vk.me",
+    "vkcompany.show",
+    "userapi.com",
+    "vk-cdn.net",
+    "vkplay.ru",
+    "vkvideo.ru",
+    "vkmusic.ru",
+    "max.ru",
+    "oneme.ru",
+    "mail.ru",
+    "my.games",
+    "ok.ru",
+    "okcdn.ru"
+  ],
+  "BlockIp": [
+    "geoip:vk"
+  ],
+  "DomainStrategy": "IPIfNonMatch",
+  "FakeDNS": false,
+  "UseChunkFiles": true
+}
